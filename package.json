@@ -1,0 +1,42 @@
+{
+  "name": "learn-fullstack-javascript",
+  "version": "1.0.0",
+  "description": "For an up-to-date configuration guide: [jscomplete.com/reactful](https://jscomplete.com/reactful)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jscomplete/learn-fullstack-javascript.git"
+  },
+  "author": "Jack Davis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jscomplete/learn-fullstack-javascript/issues"
+  },
+  "homepage": "https://github.com/jscomplete/learn-fullstack-javascript#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.9",
+    "prop-types": "^15.7.2",
+    "react": "^16.x",
+    "react-dom": "16.x"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.27.0",
+    "eslint-plugin-react": "^7.23.2",
+    "nodemon": "^2.0.7",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
